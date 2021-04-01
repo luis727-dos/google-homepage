@@ -7,18 +7,32 @@
         </head>
             
             <style>
+            #navbar
+            {
+                position:fixed;
+                top:0px;
+            }
+            nav ul
+            {   margin:0px;
+                padding:11px 0px 5px 0px;
 
+            }
+            nav li
+            {
+                display:inline;
+            }
+            
                
             .content{
                         align-items: center;
-                        padding-top:5%;
-                        padding-right: 20%;
+                        position:relative;
+                        left:520px;
+                        top:300px;
                     }
 
                  #logo{
                         align-items:center;
-                        padding:52px;
-                        padding-right: 25%;
+                        
                     }
                 #button{
 
@@ -26,13 +40,26 @@
                     padding:25px;
                 }
 
+                .search_bar
+                {  height: 30px;
+                    width:50%;
+                    padding-right:15%;   
+                    border-top-left-radius: 5%;
+                    border-bottom-left-radius: 15;
+                    border-color:darkgrey;
+                   
+                }
+
 
             </style>
         <header>
         
-            <link href="css/reset.css" rel="stylesheet" type="text/css" media="all"> 
-        
-            <link href="google-homepage/style.css" rel="stylesheet" type="text/css" media="all">
+            <nav id="navbar">
+                <ul>
+                  <li>he</li>
+                  <li>he</li>
+                </ul>
+              </nav>
        
         </header>
     
@@ -44,15 +71,17 @@
 
                         <div id="logo">
                         
-                            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height=50% aligm="end" 
-                              width=55% top-padding=50px right-padding=150px  >
+                            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height=35% aligm="end" 
+                              width=40%% top-padding=50px right-padding=150px  >
                             
                     </div>
 
                         <div  id="button">
                          
-                            <input type="text" placeholder="Search">
-                            <button type="submit">Search</button>
+                            <input  class="search_bar" type="text" placeholder="Search" >
+                            <button type="submit"><img src="images.jpeg" width=10% hieght=10px>
+                            </button> 
+                            
                         
                         </div>
 
