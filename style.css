@@ -1,0 +1,14 @@
+link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+body{
+    font-family:Arial;
+}
+
+.wrapping{
+    padding-inline: 10px 0px 0px 20px;
+}
+li{
+    display:inline;
+    padding: 10px 5px 0px 0px;
+}
