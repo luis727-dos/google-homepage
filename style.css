@@ -6,9 +6,29 @@ body{
 }
 
 .wrapping{
-    padding-inline: 10px 0px 0px 20px;
+   height: 100%;
+   width: 100%;
+}
+.inner{
+    display:flex;
+    margin:0;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 90vh;
+
+}
+.main-div{
+    text-align:center;
+    margin-top:30px;
+    flex:1;
 }
 li{
     display:inline;
     padding: 10px 5px 0px 0px;
+    align-content: flex-end;
+}
+ul{
+    align-items: flex-end;
+    align-content: flex-end;
+
 }
