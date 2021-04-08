@@ -22,13 +22,24 @@ body{
     margin-top:30px;
     flex:1;
 }
+/*navigation-bar*/
 li{
     display:inline;
     padding: 10px 5px 0px 0px;
-    align-content: flex-end;
+    float: right;
+}
+li a{
+    display:block;
+    padding:7px 9px;
+    color:black;
+    text-align: center;
 }
 ul{
     align-items: flex-end;
     align-content: flex-end;
 
+}
+/*logo*/
+#google-logo{
+    padding-top: 109px;
 }
