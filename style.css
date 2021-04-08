@@ -41,5 +41,33 @@ ul{
 }
 /*logo*/
 #google-logo{
-    padding-top: 109px;
+    padding-top: 200px;
+}
+/*search-bar*/
+.search-bar{
+    position:relative;
+    width:100%;
+    margin-top:20px;
+}
+#search-bar{
+    width: 30%;
+    height:20%;
+    border-radius: 30px;
+    padding-left:45px;
+    padding-right:30px;
+    border:1px soild #ccc;
+    outline:none;
+    font-size:16px;
+}
+.search-bar .icons{
+    position: absolute;
+    top:0;
+    margin-left:32%;
+    width:33%;
+    height:10%;
+    display:flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
 }
