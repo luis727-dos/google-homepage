@@ -98,3 +98,15 @@ ul{
     justify-content: space-between;
 
 }
+.leftfooter{
+    padding:0px 20px 12px;
+}
+.right-footer{
+    padding:0px 20px 12px;
+}
+.left-footer li a:hover{
+    color:blue;
+}
+.right-footer li a:hover{
+    color: blue;
+}
