@@ -33,6 +33,8 @@ li a{
     padding:7px 9px;
     color:black;
     text-align: center;
+} li a:hover{
+    color: blue;
 }
 ul{
     align-items: flex-end;
